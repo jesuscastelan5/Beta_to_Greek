@@ -1,0 +1,61 @@
+title:"Betacode to Greek Text Interpreter"
+WelcomeMessage1:"Welcome to Betacode to Greek text interpreter by Jesus Castelan
+ver 1.4.1 Copyright (C) 2023
+Released under the GNU license version .0
+a b g d z h q i k l m n c o p r s s (final) t u f x y w
+α β γ δ ζ η θ ι κ λ μ ν ξ ο π ρ σ ς         τ υ φ χ ψ ω
+
+	 a)	 a(	 a)/	 a(/	 a(|	 a/|	 a=	 a=|
+a	 ἀ	 ἁ	 ἄ	 ἅ	 ᾁ	 ᾴ	 ᾶ	 ᾷ	
+	 a)/|	 a)=|
+	 ᾄ	 ᾆ"
+interpretButton:"Interpret"
+helpButton:"Help"
+aboutButton:"About"
+langButton:"Prefences"
+LangMenuInUse:"Preference menu already open."
+changeLangMessage:"Select from the following languages."
+ConfirmLangSettButton:"OK"
+AskBeforeChange:"Do you want to change to this language?"
+changeLangDone:"Your language has been changed.  Close program to get new languange."
+helpMessage:"From Tufts University: http://www.perseus.tufts.edu/hopper/morph
+
+mh=nin a)ei=de qea\ *phlhi+a/dew *a)xilh=os
+μῆνιν   ἀεῖδε  θεὰ     Πηληϊάδεω    Αχιλῆος
+Note: Perseus has *)axilh=os instead of *a)xilh=os
+This Interpreter will only accept the latter (* and the vowel to be capitalized),
+not the former (* and a breath mark and the vowel).
+
+a(\ d'a)\n e)n qerapei/h| h)\ i)/dw h)\ a)kou/sw ...
+ἃ    δ'ἂν   ἐν  θεραπείῃ  ἢ   ἴδω    ἢ   ἀκούσω...
+
+a b g d z h q i k l m n c o p r s s (final) t u f x y w
+α β γ δ ζ η θ ι κ λ μ ν ξ ο π ρ σ ς         τ υ φ χ ψ ω 
+
+	 a)	 a(	 a)/	 a(/	 a(|	 a/|	 a=	 a=|
+a	 ἀ	 ἁ	 ἄ	 ἅ	 ᾁ	 ᾴ	 ᾶ	 ᾷ	
+	 a)/|	 a)=|
+	 ᾄ	 ᾆ"
+aboutMessage:"(C) 2023 Jesus Castelan.
+This is an interpreter that outputs polytonic Greek text using betacode, a scheme invented by David W. Packard to transcribe ancient languages using only English (ASCII) characters.
+This allows one to obtain Greek text without a polytonic keyboard and without internet connection.
+
+You may sell, modify, distribute, or do anything else with this piece of software so long as you credit me as the original creator (Jesus Castelan), and you also release your modifications/distributions under this same license.
+You can see the full license here: 
+There is NO WARANTY or GUARANTEE that this product will work as intended.  Use it at your own risk."
+error1:"*** Error ***"
+error2:" in '"
+error3:"' has a mistake."
+error4:"A vowel is required if using /, \, =, or |.
+Correct order of diacritics is:
+* or no *, vowel, + or no +, ( or ), / or \ or =, and | or no |.
+Pick only one of each diacritic.
+In addition, e, i, o, and u cannot use|.
+e and o cannot use =.
+And _ cannot be used with another diacritic."
+error5:"That's not a supported language."
+error6:"Error: I cannot find that languange.
+Make sure it is in the Prompts folder.
+You can download the Prompt from: .
+Or you can reinstall the latest versiont of this program."
+error7:"Make sure UserPref.txt is in "

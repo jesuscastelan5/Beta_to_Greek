@@ -1,0 +1,78 @@
+title:"Betacode to Greek Text Interpreter"
+WelcomeMessage1:"Bienvenido/a a Betacode to Greek text interpreter por Jesus Castelan
+ver 1.4.1 (C) 2023
+Lanzado bajo la licencia GNU version .0
+a b g d z h q i k l m n c o p r s s (final) t u f x y w
+α β γ δ ζ η θ ι κ λ μ ν ξ ο π ρ σ ς         τ υ φ χ ψ ω
+
+	 a)	 a(	 a)/	 a(/	 a(|	 a/|	 a=	 a=|
+a	 ἀ	 ἁ	 ἄ	 ἅ	 ᾁ	 ᾴ	 ᾶ	 ᾷ	
+	 a)/|	 a)=|
+	 ᾄ	 ᾆ"
+interpretButton:"Interpretar"
+helpButton:"Ayuda"
+aboutButton:"Sobre"
+langButton:"Preferencias"
+LangMenuInUse:"El menu de preferencias ya se abrió."
+changeLangMessage:"Seleccione de las siguiente opciones."
+ConfirmLangSettButton:"OK"
+AskBeforeChange:"¿Quiere cambiar a este lenguaje?"
+changeLangDone:"Su lenguaje ha cambiado. Cierre la sesion para continuar con el lenguaje selecionado."
+helpMessage1:"De Tufts University: "
+helpLink:"http://www.perseus.tufts.edu/hopper/morph"
+helpMessage2:"
+mh=nin a)ei=de qea\ *phlhi+a/dew *a)xilh=os
+μῆνιν   ἀεῖδε  θεὰ     Πηληϊάδεω    Αχιλῆος
+Nota: Perseus tiene *)axilh=os en vez de *a)xilh=os
+Este Interpretador solo aceptara la segunda paralabra (* y la vocal que sera puesta en majusculas), no la primera (* y una marca de respiracion y la vocal).
+
+a(\ d'a)\n e)n qerapei/h| h)\ i)/dw h)\ a)kou/sw ...
+ἃ    δ'ἂν   ἐν  θεραπείῃ  ἢ   ἴδω    ἢ   ἀκούσω...
+
+a b g d z h q i k l m n c o p r s s (final) t u f x y w
+α β γ δ ζ η θ ι κ λ μ ν ξ ο π ρ σ ς         τ υ φ χ ψ ω 
+
+	 a)	 a(	 a)/	 a(/	 a(|	 a/|	 a=	 a=|
+a	 ἀ	 ἁ	 ἄ	 ἅ	 ᾁ	 ᾴ	 ᾶ	 ᾷ	
+	 a)/|	 a)=|
+	 ᾄ	 ᾆ"
+helpMessage:"De Tufts University: http://www.perseus.tufts.edu/hopper/morph
+
+mh=nin a)ei=de qea\ *phlhi+a/dew *a)xilh=os
+μῆνιν   ἀεῖδε  θεὰ     Πηληϊάδεω    Αχιλῆος
+Nota: Perseus tiene *)axilh=os en vez de *a)xilh=os
+Este Interpretador solo aceptara la segunda palabra (* y la vocal que sera puesta en majusculas), no la primera (* y una marca de respiracion y la vocal).
+
+a(\ d'a)\n e)n qerapei/h| h)\ i)/dw h)\ a)kou/sw ...
+ἃ    δ'ἂν   ἐν  θεραπείῃ  ἢ   ἴδω    ἢ   ἀκούσω...
+
+a b g d z h q i k l m n c o p r s s (final) t u f x y w
+α β γ δ ζ η θ ι κ λ μ ν ξ ο π ρ σ ς         τ υ φ χ ψ ω 
+
+	 a)	 a(	 a)/	 a(/	 a(|	 a/|	 a=	 a=|
+a	 ἀ	 ἁ	 ἄ	 ἅ	 ᾁ	 ᾴ	 ᾶ	 ᾷ	
+	 a)/|	 a)=|
+	 ᾄ	 ᾆ"
+aboutMessage:"(C) 2023 Jesus Castelan.
+Este es un interpretador que produce texto griego polytonico usando betacode, una esquema inventada por David W. Packard para transcribir lenguajes antiguos usando solo caracteres basicos (ASCII).
+Esto permite a uno to obtain Greek text sin un teclado politonico y sin coneccion de internet.
+
+Puede vender, modificar, distribuir, o hacer cualquier otra cosa con este programa so long as you credit me como el creador original (Jesus Castelan), y tambien distribuja su modificaciones bajo esta misma licencia.
+Visite este sitio de web para ver la licencia completa: 
+NO HAY GARANTIA que este producto funcionará según su intención.  Úselo bajo su propia responsabilidad."
+error1:"*** Error ***"
+error2:" en '"
+error3:"' tiene un error."
+error4:"Una vocal es necesaria si esta usando /, \, =, o |.
+El orden correcto de los diacriticos es:
+* o no *, vocal, + o no +, ( o ), / o \ o =, y | o no |.
+Solo seleccione uno de cada diacritico.
+Adicionalmente, | no se puede usar con 'e', 'i', 'o', o 'u'.
+Y = no se puede usar con 'e' y 'o'.
+Y _ no se puede usar con otro diacritico."
+error5:"Eso no es un lenguaje compatible."
+error6:"Error: no puedo encontrar ese lenguanje.
+Asegurese de que esta en la carpeta Prompts.
+Puede bajar los Prompts de aquí: .
+O puede reinstalar la versión mas reciente de esta aplicación."
+error7:"Asegurese de que UserPref.txt esta en "
