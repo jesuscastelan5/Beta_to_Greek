@@ -7,8 +7,7 @@ internet isn't always a guarantee.  Thus, I decided to create this compiler so t
 academics alike could write in Greek text for assigments, articles, commentaries, etc.
 
 # Current Status
-This is the final Python version of this project; I plan to phase it out with a Tauri (TypeScript + Rust)
-version by next year.  WxPython cannot bind keystrokes as easily as Tkinter, so keyboard shortcuts are not
+This is the final Python version of this project; I plan to phase it out with a C++ version.  WxPython cannot bind keystrokes as easily as Tkinter, so keyboard shortcuts are not
 enabled.  But unlike Tkinter, WxPython does allow screen narrators to read the text inside buttons, which is
 why WxPython was chosen over the standard library.  The GUI is currently available in English and Spanish.
 God willing, we should get more language support later on.
